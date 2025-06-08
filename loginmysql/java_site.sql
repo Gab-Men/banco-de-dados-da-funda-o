@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS Pessoa;
+
+CREATE TABLE Pessoa (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    cpf VARCHAR(20) NOT NULL,
+    datanascimento VARCHAR(20) NOT NULL
+);
